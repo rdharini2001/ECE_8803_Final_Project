@@ -12,10 +12,27 @@ The Ophthalmic Labels for Investigating Visual Eye Semantics (OLIVES) dataset co
 ![alt text](https://github.com/rdharini2001/ECE_8803_Final_Project/blob/main/method.png)
 
 # Results 
-![alt text](https://github.com/rdharini2001/ECE_8803_Final_Project/blob/main/Screenshot%202024-12-02%20at%209.55.13%20PM.png)     
+![alt text](https://github.com/rdharini2001/ECE_8803_Final_Project/blob/main/ModelPerformanceComparison.png)     
 
 GRAD CAM Visualization of the ResNet50 Fusion Model
-![alt text](https://github.com/rdharini2001/ECE_8803_Final_Project/blob/main/image%20(1).png)     
+![alt text](https://github.com/rdharini2001/ECE_8803_Final_Project/blob/main/GradCam_FusionResNet50.png)     
 
 
 # Contents of the repository
+labels/ - Includes the original label file as well as the test/train split files we created.
+TrainedModels/ - Includes all final trained weights for each model.
+FML_Project_Clinical_Label_Model.ipynb - Predicts biomarkers from clinical test data (CST and BCVA) only.
+FML_Project_ModelEvaluation_GradCAM.ipynb - Can be used to evaluate the trained model as well as visualize a GradCAM for different models. Doesn't work for the (non-image) clinical label model.
+FML_Project_PreprocessingData.ipynb - Performs the split of the dataset. Also shows the data preprocessing used in the different image/fusion models.
+FML_Project_Resnet.ipynb - Model using a ResNet50 to perform the biomarker predicitons.
+FML_Project_Resnet_Fusion.ipynb - First version of the fusion model using a ResNet50 model and attention mechanisms. Worse performance than it's newer model.
+FML_Project_Resnet_Fusion_V2.ipynb - Updated fusion model with a ResNet50 backbone. Showed the best overall performance.
+FML_Project_ViT.ipynb - Model using a vision transformer for image processing. This also includes the fusion model using that same vision transformer as its backbone.
+
+
+
+
+
+
+
+
