@@ -14,7 +14,7 @@ The Ophthalmic Labels for Investigating Visual Eye Semantics (OLIVES) dataset co
 # Results 
 ![alt text](https://github.com/rdharini2001/ECE_8803_Final_Project/blob/main/Screenshot%202024-12-02%20at%209.55.13%20PM.png)     
 
-GRAD CAM Visualization of ResNet50
+GRAD CAM Visualization of the ResNet50 Fusion Model
 ![alt text](https://github.com/rdharini2001/ECE_8803_Final_Project/blob/main/image%20(1).png)     
 
 
