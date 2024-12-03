@@ -19,15 +19,26 @@ GRAD CAM Visualization of the ResNet50 Fusion Model
 
 
 # Contents of the repository
-labels/ - Includes the original label file as well as the test/train split files we created.
-TrainedModels/ - Includes all final trained weights for each model.
-FML_Project_Clinical_Label_Model.ipynb - Predicts biomarkers from clinical test data (CST and BCVA) only.
-FML_Project_ModelEvaluation_GradCAM.ipynb - Can be used to evaluate the trained model as well as visualize a GradCAM for different models. Doesn't work for the (non-image) clinical label model.
-FML_Project_PreprocessingData.ipynb - Performs the split of the dataset. Also shows the data preprocessing used in the different image/fusion models.
-FML_Project_Resnet.ipynb - Model using a ResNet50 to perform the biomarker predicitons.
-FML_Project_Resnet_Fusion.ipynb - First version of the fusion model using a ResNet50 model and attention mechanisms. Worse performance than it's newer model.
-FML_Project_Resnet_Fusion_V2.ipynb - Updated fusion model with a ResNet50 backbone. Showed the best overall performance.
-FML_Project_ViT.ipynb - Model using a vision transformer for image processing. This also includes the fusion model using that same vision transformer as its backbone.
+### Directories
+- **`labels/`**  
+  Includes the original label file as well as the test/train split files we created.
+- **`TrainedModels/`**  
+  Contains all final trained weights for each model.
+### Notebooks
+- **`FML_Project_Clinical_Label_Model.ipynb`**  
+  Predicts biomarkers from clinical test data (CST and BCVA) only.
+- **`FML_Project_ModelEvaluation_GradCAM.ipynb`**  
+  Evaluates the trained model and visualizes GradCAM for different models. Does not work for the (non-image) clinical label model.
+- **`FML_Project_PreprocessingData.ipynb`**  
+  Performs the dataset split and details data preprocessing for image and fusion models.
+- **`FML_Project_Resnet.ipynb`**  
+  Implements a model using ResNet50 for biomarker predictions.
+- **`FML_Project_Resnet_Fusion.ipynb`**  
+  The first version of the fusion model, combining ResNet50 and attention mechanisms. Performs worse than the updated version.
+- **`FML_Project_Resnet_Fusion_V2.ipynb`**  
+  The updated fusion model with a ResNet50 backbone, achieving the best overall performance.
+- **`FML_Project_ViT.ipynb`**  
+  Uses a Vision Transformer (ViT) for image processing. Includes the fusion model with a ViT backbone.
 
 
 
